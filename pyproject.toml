@@ -13,7 +13,7 @@ license = "Apache-2.0"
 packages = [{ include = "perception_eval", from = "perception_eval" }]
 
 [tool.poetry.dependencies]
-python = ">=3.7.11,<3.11"
+python = ">=3.8,<3.11"
 nuscenes-devkit = "^1.1.9"
 tqdm = "^4.62.3"
 plotly = "^5.9.0"
